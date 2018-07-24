@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ví dụ sử dụng Directive datetime-local</title>
+        <script src="angular.js"></script>
+    </head>
+    <body>
+        <div ng-app="">
+          {{5+5}}
+            <div ng-controller="HeaderController">
+                <h2>Xin chào {{data.title}} đến với website {{data.website}}!</h2>
+            </div>
+        </div>
+        <script>
+            function HeaderController($scope){
+                $scope.data = {
+                    title : "các bạn",
+                    website : 'freetuts.net'
+                };
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,236 @@
+body{
+	font-family: Tahoma;
+	background-color: #ffffff;	
+
+}
+.panel{
+	padding-top: 20px;
+
+}
+.panel .logo{
+	float: left;
+	padding-top:30px;
+	padding-bottom: 35px
+}
+.panel .logo a{
+	margin-left: 40px;
+}
+
+.panel .info{
+	float: right;
+	padding-top:30px;
+	padding-bottom: 35px
+}
+.panel .info div{
+	background-color: #ffd200;
+	border-radius: 8px;
+	width: 210px;
+	height: 40px;
+	font-size: 16px;
+	margin-right: 90px;
+	padding-left: 40px;
+	padding-top: 10px;
+	position: relative;
+}
+.panel .info img{
+	float: right;
+	padding-top:5px;	
+}
+.panel .info div::after{
+	content: ' ..........................................';
+	position: absolute;
+	bottom:-1px;
+}
+.main-banner{
+	background-image: url('../image/mainbanner.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 545px;
+}
+.main-banner p,.advantage p , .ready-solution p, .testimonials p{
+	font-size: 60px;
+	text-transform: uppercase;
+	margin:50px auto 30px auto;
+}
+.main-banner p~p{
+	font-size: 24px;
+	text-transform: none;
+	margin:0px auto 70px auto;
+
+}
+.main-banner span ,.advantage span, .testimonials .make-user , .payment span{
+	font-size: 26px;
+	text-transform: uppercase;
+	margin:0px auto;
+	border: 1px solid #010101;
+	padding: 20px;
+    border-radius: 8px;
+}
+
+
+.step{
+	padding-bottom: 90px;
+}
+.step img{
+	margin:60px auto 25px auto;
+}
+.step p{
+	float: left;
+	margin-left: 100px ;
+	margin-right: 65px;
+	width: 100px;
+	height: 60px;
+	text-align:center;
+	font-size: 24px;
+}
+.advantage{
+	background-color: #f3f0e7;
+	padding-bottom: 80px;
+}
+.advantage img+p{
+	font-size:24px;
+	text-transform: none;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom: 30px;
+}
+.advantage img+p~p{
+	font-size:16px;
+	text-transform: none;
+	text-align:center;
+	width: 275px;
+}
+.advantage span,.payment span {
+	background-color: #e11a27;
+	color: #fff;
+	border: 1px solid #f3f0e7;
+}
+.ready-solution{
+	height: 730px;
+}
+.ready-solution .ready-head{
+	border-radius: 10px 10px 0px 0px;
+	background-color: #ffd200;
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+	padding-top: 40px;
+	width: 315px;
+	height: 120px;
+}
+.ready-solution .ready-contain {
+	width: 315px;
+	height: 270px;
+	border: solid 2px #ffd200;
+	position: relative;
+}
+.ready-solution .ready-after {
+	width: 315px;
+	height: 50px;
+	background-color: #ffd200;
+	border-radius: 0px 0px 10px 10px;
+	text-align:center;
+	padding-top: 15px;
+}
+.ready-solution .ready-contain ul{
+	
+	padding-top: 20px;
+	list-style-image: url('../image/tick.png');
+}
+.ready-solution .ready-contain ul li{
+	padding-bottom: 10px; 
+}
+.ready-solution .ready-contain ul+p{
+	text-transform: none;
+	font-size: 60px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	bottom: 1px;
+	left: 90px;
+}
+.testimonials{
+	background-image: url('../image/book.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 770px;
+}
+.testimonials .avatar img{
+	float: left;
+	margin-right: 20px;
+}
+.testimonials .avatar{
+	
+}
+.testimonials .avatar .name{
+	position: relative;
+	top:55px;
+}
+.testimonials .about p{
+	text-transform: none;
+	font-size: 16px;
+	margin-top: 140px;
+	width: 510px;
+}
+.testimonials .about a{
+	text-decoration:none;
+	color: black;
+	float: right;
+}
+.testimonials .make-user{
+	margin-top: 65px;
+	float: none;
+}
+.payment {
+	height: 660px;
+}
+.payment .payment-contain{
+	width: 315px;
+	margin-bottom: 70px;
+	
+}
+.payment .payment-head{
+	background-color: #ffd200;
+	text-transform: uppercase;
+	font-size: 36px;
+	text-align: center;
+	border-radius: 8px 8px 0px 0px;
+	margin-top: 90px;
+	height: 65px;
+	margin-bottom: 5px;
+}
+.payment p{
+	background-color: #f7f0e6;
+	padding-left: 35px;
+	padding-top: 30px;
+	height: 235px;
+}
+
+footer{
+	background-color: #ffd200;
+}
+footer .social-network, footer #logoA{
+	margin-bottom: 20px;
+	margin-right: 65px;
+}
+footer p{
+	 margin: 35px auto 240px auto;
+	 font-size: 14px;
+}
+footer .links{
+	width: 155px;
+	float: left;
+	margin-right: 80px;
+}
+footer .links ul {
+	list-style: none;
+	padding-left:  0px;
+	font-size: 18px;
+}
+footer .links ul li{
+	padding-bottom: 20px;
+}
+footer img[src*="line.png"]{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
